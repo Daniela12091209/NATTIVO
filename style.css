@@ -1,0 +1,60 @@
+body{
+font-family: Arial;
+margin:0;
+}
+
+.login-body{
+background:#f4f4f4;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.login-box{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 0 10px gray;
+text-align:center;
+}
+
+input{
+display:block;
+width:100%;
+padding:10px;
+margin:10px 0;
+}
+
+button{
+background:black;
+color:white;
+padding:10px;
+border:none;
+width:100%;
+cursor:pointer;
+}
+
+.menu{
+width:220px;
+background:black;
+color:white;
+height:100vh;
+position:fixed;
+}
+
+.menu a{
+display:block;
+color:white;
+padding:15px;
+text-decoration:none;
+}
+
+.menu a:hover{
+background:#333;
+}
+
+.content{
+margin-left:230px;
+padding:30px;
+}
